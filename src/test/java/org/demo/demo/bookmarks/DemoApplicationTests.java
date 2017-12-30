@@ -1,4 +1,4 @@
-package org.demo.demo;
+package org.demo.demo.bookmarks;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

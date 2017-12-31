@@ -1,4 +1,4 @@
-package org.demo.demo.bookmarks;
+package org.models.demo.bookmarks;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

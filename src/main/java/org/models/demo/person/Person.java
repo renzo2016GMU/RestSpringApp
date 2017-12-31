@@ -1,4 +1,4 @@
-package org.demo.demo.person;
+package org.models.demo.person;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

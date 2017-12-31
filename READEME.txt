@@ -1,0 +1,1 @@
+This application uses Spring framework to implement RESTfull services quickly with almost no boilerplate code

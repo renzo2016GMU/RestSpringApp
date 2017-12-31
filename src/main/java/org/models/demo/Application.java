@@ -1,13 +1,13 @@
-package org.demo.demo;
+package org.models.demo;
 
-import org.demo.demo.Booking.Booking;
-import org.demo.demo.Booking.BookingRepository;
-import org.demo.demo.bookmarks.Account;
-import org.demo.demo.bookmarks.AccountRepository;
-import org.demo.demo.bookmarks.Bookmark;
-import org.demo.demo.bookmarks.BookmarkRepository;
-import org.demo.demo.person.Person;
-import org.demo.demo.person.PersonRepository;
+import org.models.demo.Booking.Booking;
+import org.models.demo.Booking.BookingRepository;
+import org.models.demo.bookmarks.Account;
+import org.models.demo.bookmarks.AccountRepository;
+import org.models.demo.bookmarks.Bookmark;
+import org.models.demo.bookmarks.BookmarkRepository;
+import org.models.demo.person.Person;
+import org.models.demo.person.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

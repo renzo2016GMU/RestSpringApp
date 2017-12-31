@@ -1,4 +1,4 @@
-package org.demo.demo.Booking;
+package org.models.demo.Booking;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,7 +1,7 @@
-package org.demo.demo.bookmarks;
+package org.models.demo.bookmarks;
 
 
-import org.demo.demo.Application;
+import org.models.demo.Application;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

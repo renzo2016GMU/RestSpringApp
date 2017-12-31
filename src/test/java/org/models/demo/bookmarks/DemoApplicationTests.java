@@ -1,4 +1,4 @@
-package org.demo.demo.bookmarks;
+package org.models.demo.bookmarks;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

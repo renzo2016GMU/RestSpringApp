@@ -1,4 +1,4 @@
-package org.demo.demo.Booking;
+package org.models.demo.bookmarks;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Collection;
 
 @RestController
-class BookingRestController {
+public class AccountRestController {
     @Autowired
-    BookingRepository bookingRepository;
+    private AccountRepository accountRepository;
 
-    @RequestMapping("/bookings")
-    Collection<Booking> bookings() {
-        return this.bookingRepository.findAll();
+    @RequestMapping("/accounts")
+    Collection<Account> accounts() {
+        return this.accountRepository.findAll();
     }
 }

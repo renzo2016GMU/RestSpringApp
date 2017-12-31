@@ -1,4 +1,4 @@
-package org.demo.demo.person;
+package org.models.demo.person;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,4 +15,6 @@ class PersonRestController {
     Collection<Person> persons() {
         return this.personRepository.findAll();
     }
+
+
 }

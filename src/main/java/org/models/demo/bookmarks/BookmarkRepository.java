@@ -1,4 +1,4 @@
-package org.demo.demo.bookmarks;
+package org.models.demo.bookmarks;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
